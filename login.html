@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerFlow - Login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Login CSS -->
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <!-- Background Decorations -->
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+
+        <a href="home.html" class="logo">
+            <span class="logo-font">Career</span>flow
+        </a>
+
+        <a href="home.html" class="back-home">
+            ← Back to Home
+        </a>
+
+    </nav>
+
+
+    <!-- LOGIN SECTION -->
+    <main class="login-section">
+
+        <!-- Left Side -->
+        <div class="login-info">
+
+            <div class="info-badge">
+                💼 Smart Job Tracking
+            </div>
+
+            <h1>
+                Welcome Back to
+                <span>CareerFlow</span>
+            </h1>
+
+            <p>
+                Track your applications, manage interviews,
+                and stay organized throughout your placement journey.
+            </p>
+
+            <div class="benefits">
+
+                <div class="benefit">
+                    <div class="benefit-icon">✓</div>
+
+                    <div>
+                        <h3>Track Applications</h3>
+                        <p>Keep all your applications organized.</p>
+                    </div>
+                </div>
+
+
+                <div class="benefit">
+                    <div class="benefit-icon">✓</div>
+
+                    <div>
+                        <h3>Manage Interviews</h3>
+                        <p>Never miss an important interview.</p>
+                    </div>
+                </div>
+
+
+                <div class="benefit">
+                    <div class="benefit-icon">✓</div>
+
+                    <div>
+                        <h3>Monitor Progress</h3>
+                        <p>See your placement journey at a glance.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Login Card -->
+        <div class="login-card">
+
+            <div class="login-header">
+
+                <div class="login-icon">
+                    🔐
+                </div>
+
+                <h2>Welcome Back</h2>
+
+                <p>Login to continue to your dashboard</p>
+
+            </div>
+
+
+            <!-- Login Form -->
+            <form>
+
+                <!-- Email -->
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <div class="input-box">
+
+                        <span class="input-icon">✉</span>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password -->
+                <div class="form-group">
+
+                    <div class="password-label">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <a href="#">
+                            Forgot Password?
+                        </a>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <span class="input-icon">🔒</span>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required
+                        >
+
+                        <button
+                            type="button"
+                            class="show-password"
+                            onclick="togglePassword()"
+                        >
+                            👁
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Remember -->
+                <div class="remember-row">
+
+                    <label class="remember">
+
+                        <input type="checkbox">
+
+                        <span>Remember me</span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- Login Button -->
+                <button type="submit" class="login-btn">
+                    Login to CareerFlow
+                    <span>→</span>
+                </button>
+
+            </form>
+
+
+            <!-- Divider -->
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+
+            <!-- Google Login -->
+            <button class="google-btn" type="button">
+
+                <span class="google-icon">G</span>
+
+                Continue with Google
+
+            </button>
+
+
+            <!-- Register -->
+            <p class="register-text">
+
+                Don't have an account?
+
+                <a href="register.html">
+                    Create Account
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 CareerFlow. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Password Toggle -->
+    <script src="login.js"></script>
+
+</body>
+</html>
