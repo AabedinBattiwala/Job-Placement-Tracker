@@ -1,0 +1,17 @@
+# Database credentials
+db.php
+
+# XAMPP/local files
+xampp/
+*.log
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
